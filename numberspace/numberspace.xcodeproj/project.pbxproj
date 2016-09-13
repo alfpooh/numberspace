@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CDC9E62CDBFE02B3CF307E5 /* Pods_numberspaceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3C5BC63B3AC684AE8F2E55 /* Pods_numberspaceUITests.framework */; };
+		9BE411A0D809839B7FFFFE19 /* Pods_numberspace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B80B9C2BC037FF7999D6D8 /* Pods_numberspace.framework */; };
+		F3238566C242D994F70A1CD2 /* Pods_numberspaceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA7B35CBD0D64CC68612813 /* Pods_numberspaceTests.framework */; };
+		FD9BE26B1D854C88006CF4F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9BE26A1D854C88006CF4F3 /* AppDelegate.swift */; };
+		FD9BE26D1D854C88006CF4F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9BE26C1D854C88006CF4F3 /* ViewController.swift */; };
+		FD9BE2701D854C88006CF4F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9BE26E1D854C88006CF4F3 /* Main.storyboard */; };
+		FD9BE2731D854C88006CF4F3 /* numberspace.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD9BE2711D854C88006CF4F3 /* numberspace.xcdatamodeld */; };
+		FD9BE2751D854C88006CF4F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9BE2741D854C88006CF4F3 /* Assets.xcassets */; };
+		FD9BE2781D854C88006CF4F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9BE2761D854C88006CF4F3 /* LaunchScreen.storyboard */; };
+		FD9BE2831D854C88006CF4F3 /* numberspaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9BE2821D854C88006CF4F3 /* numberspaceTests.swift */; };
+		FD9BE28E1D854C88006CF4F3 /* numberspaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9BE28D1D854C88006CF4F3 /* numberspaceUITests.swift */; };
+		FD9BE29C1D857031006CF4F3 /* NumberSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9BE29B1D857031006CF4F3 /* NumberSpace.swift */; };
+		FDBC21141D85D52400C2EB44 /* numberspace30percent.json in Resources */ = {isa = PBXBuildFile; fileRef = FDBC21131D85D52400C2EB44 /* numberspace30percent.json */; };
+		FDBC21161D85D80700C2EB44 /* numberspace70percent.json in Resources */ = {isa = PBXBuildFile; fileRef = FDBC21151D85D80700C2EB44 /* numberspace70percent.json */; };
+		FDBC21181D85DFEE00C2EB44 /* numberspace10percent.json in Resources */ = {isa = PBXBuildFile; fileRef = FDBC21171D85DFEE00C2EB44 /* numberspace10percent.json */; };
+		FDBC211A1D85E7CE00C2EB44 /* Numberspace2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC21191D85E7CE00C2EB44 /* Numberspace2.swift */; };
+		FDBC211C1D85E81500C2EB44 /* Numberspace3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC211B1D85E81500C2EB44 /* Numberspace3.swift */; };
+		FDBC211E1D85E85400C2EB44 /* Numberspace4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC211D1D85E85400C2EB44 /* Numberspace4.swift */; };
+		FDBC21201D86071100C2EB44 /* NumberSpaceAlignedOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC211F1D86071100C2EB44 /* NumberSpaceAlignedOne.swift */; };
+		FDF2050A1D858765008BE9E6 /* numberspace44.12percent.json in Resources */ = {isa = PBXBuildFile; fileRef = FDF205091D858765008BE9E6 /* numberspace44.12percent.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD9BE27F1D854C88006CF4F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD9BE25F1D854C88006CF4F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD9BE2661D854C88006CF4F3;
+			remoteInfo = numberspace;
+		};
+		FD9BE28A1D854C88006CF4F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD9BE25F1D854C88006CF4F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD9BE2661D854C88006CF4F3;
+			remoteInfo = numberspace;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18930346F0ACE1804D154954 /* Pods-numberspace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-numberspace.debug.xcconfig"; path = "Pods/Target Support Files/Pods-numberspace/Pods-numberspace.debug.xcconfig"; sourceTree = "<group>"; };
+		1F4E8C93D4F9D714F9FF4550 /* Pods-numberspaceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-numberspaceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-numberspaceTests/Pods-numberspaceTests.release.xcconfig"; sourceTree = "<group>"; };
+		37D72E894CD6AF85A61BB7A1 /* Pods-numberspaceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-numberspaceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-numberspaceUITests/Pods-numberspaceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C3C5BC63B3AC684AE8F2E55 /* Pods_numberspaceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_numberspaceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA7B35CBD0D64CC68612813 /* Pods_numberspaceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_numberspaceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B36317141C1839F563ABEB /* Pods-numberspaceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-numberspaceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-numberspaceTests/Pods-numberspaceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DECC6646A9F941FC42B0DA9C /* Pods-numberspace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-numberspace.release.xcconfig"; path = "Pods/Target Support Files/Pods-numberspace/Pods-numberspace.release.xcconfig"; sourceTree = "<group>"; };
+		E7B80B9C2BC037FF7999D6D8 /* Pods_numberspace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_numberspace.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACC5EFC73167C9851346464 /* Pods-numberspaceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-numberspaceUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-numberspaceUITests/Pods-numberspaceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FD9BE2671D854C88006CF4F3 /* numberspace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = numberspace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD9BE26A1D854C88006CF4F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD9BE26C1D854C88006CF4F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD9BE26F1D854C88006CF4F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD9BE2721D854C88006CF4F3 /* numberspace.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = numberspace.xcdatamodel; sourceTree = "<group>"; };
+		FD9BE2741D854C88006CF4F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD9BE2771D854C88006CF4F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD9BE2791D854C88006CF4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD9BE27E1D854C88006CF4F3 /* numberspaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = numberspaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD9BE2821D854C88006CF4F3 /* numberspaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numberspaceTests.swift; sourceTree = "<group>"; };
+		FD9BE2841D854C88006CF4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD9BE2891D854C88006CF4F3 /* numberspaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = numberspaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD9BE28D1D854C88006CF4F3 /* numberspaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numberspaceUITests.swift; sourceTree = "<group>"; };
+		FD9BE28F1D854C88006CF4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD9BE29B1D857031006CF4F3 /* NumberSpace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberSpace.swift; sourceTree = "<group>"; };
+		FDBC21131D85D52400C2EB44 /* numberspace30percent.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = numberspace30percent.json; sourceTree = "<group>"; };
+		FDBC21151D85D80700C2EB44 /* numberspace70percent.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = numberspace70percent.json; sourceTree = "<group>"; };
+		FDBC21171D85DFEE00C2EB44 /* numberspace10percent.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = numberspace10percent.json; sourceTree = "<group>"; };
+		FDBC21191D85E7CE00C2EB44 /* Numberspace2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Numberspace2.swift; sourceTree = "<group>"; };
+		FDBC211B1D85E81500C2EB44 /* Numberspace3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Numberspace3.swift; sourceTree = "<group>"; };
+		FDBC211D1D85E85400C2EB44 /* Numberspace4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Numberspace4.swift; sourceTree = "<group>"; };
+		FDBC211F1D86071100C2EB44 /* NumberSpaceAlignedOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberSpaceAlignedOne.swift; sourceTree = "<group>"; };
+		FDF205091D858765008BE9E6 /* numberspace44.12percent.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = numberspace44.12percent.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD9BE2641D854C88006CF4F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE411A0D809839B7FFFFE19 /* Pods_numberspace.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9BE27B1D854C88006CF4F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3238566C242D994F70A1CD2 /* Pods_numberspaceTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9BE2861D854C88006CF4F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDC9E62CDBFE02B3CF307E5 /* Pods_numberspaceUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		618757A3B834860A8D3F3D09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7B80B9C2BC037FF7999D6D8 /* Pods_numberspace.framework */,
+				AEA7B35CBD0D64CC68612813 /* Pods_numberspaceTests.framework */,
+				8C3C5BC63B3AC684AE8F2E55 /* Pods_numberspaceUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		676299A1FB76F6D00EE6AE1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18930346F0ACE1804D154954 /* Pods-numberspace.debug.xcconfig */,
+				DECC6646A9F941FC42B0DA9C /* Pods-numberspace.release.xcconfig */,
+				D3B36317141C1839F563ABEB /* Pods-numberspaceTests.debug.xcconfig */,
+				1F4E8C93D4F9D714F9FF4550 /* Pods-numberspaceTests.release.xcconfig */,
+				37D72E894CD6AF85A61BB7A1 /* Pods-numberspaceUITests.debug.xcconfig */,
+				EACC5EFC73167C9851346464 /* Pods-numberspaceUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD9BE25E1D854C88006CF4F3 = {
+			isa = PBXGroup;
+			children = (
+				FD9BE2691D854C88006CF4F3 /* numberspace */,
+				FD9BE2811D854C88006CF4F3 /* numberspaceTests */,
+				FD9BE28C1D854C88006CF4F3 /* numberspaceUITests */,
+				FD9BE2681D854C88006CF4F3 /* Products */,
+				676299A1FB76F6D00EE6AE1F /* Pods */,
+				618757A3B834860A8D3F3D09 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD9BE2681D854C88006CF4F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD9BE2671D854C88006CF4F3 /* numberspace.app */,
+				FD9BE27E1D854C88006CF4F3 /* numberspaceTests.xctest */,
+				FD9BE2891D854C88006CF4F3 /* numberspaceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD9BE2691D854C88006CF4F3 /* numberspace */ = {
+			isa = PBXGroup;
+			children = (
+				FD9BE26A1D854C88006CF4F3 /* AppDelegate.swift */,
+				FD9BE26C1D854C88006CF4F3 /* ViewController.swift */,
+				FD9BE26E1D854C88006CF4F3 /* Main.storyboard */,
+				FD9BE2741D854C88006CF4F3 /* Assets.xcassets */,
+				FD9BE2761D854C88006CF4F3 /* LaunchScreen.storyboard */,
+				FD9BE2791D854C88006CF4F3 /* Info.plist */,
+				FD9BE2711D854C88006CF4F3 /* numberspace.xcdatamodeld */,
+				FD9BE29B1D857031006CF4F3 /* NumberSpace.swift */,
+				FDBC211F1D86071100C2EB44 /* NumberSpaceAlignedOne.swift */,
+				FDBC21191D85E7CE00C2EB44 /* Numberspace2.swift */,
+				FDBC211B1D85E81500C2EB44 /* Numberspace3.swift */,
+				FDBC211D1D85E85400C2EB44 /* Numberspace4.swift */,
+				FDF205091D858765008BE9E6 /* numberspace44.12percent.json */,
+				FDBC21131D85D52400C2EB44 /* numberspace30percent.json */,
+				FDBC21151D85D80700C2EB44 /* numberspace70percent.json */,
+				FDBC21171D85DFEE00C2EB44 /* numberspace10percent.json */,
+			);
+			path = numberspace;
+			sourceTree = "<group>";
+		};
+		FD9BE2811D854C88006CF4F3 /* numberspaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD9BE2821D854C88006CF4F3 /* numberspaceTests.swift */,
+				FD9BE2841D854C88006CF4F3 /* Info.plist */,
+			);
+			path = numberspaceTests;
+			sourceTree = "<group>";
+		};
+		FD9BE28C1D854C88006CF4F3 /* numberspaceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD9BE28D1D854C88006CF4F3 /* numberspaceUITests.swift */,
+				FD9BE28F1D854C88006CF4F3 /* Info.plist */,
+			);
+			path = numberspaceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD9BE2661D854C88006CF4F3 /* numberspace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD9BE2921D854C88006CF4F3 /* Build configuration list for PBXNativeTarget "numberspace" */;
+			buildPhases = (
+				51E3947BD95B84B956996431 /* [CP] Check Pods Manifest.lock */,
+				FD9BE2631D854C88006CF4F3 /* Sources */,
+				FD9BE2641D854C88006CF4F3 /* Frameworks */,
+				FD9BE2651D854C88006CF4F3 /* Resources */,
+				60F56D7848D6C6EEDEA66B04 /* [CP] Embed Pods Frameworks */,
+				16356E88B434666337748902 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = numberspace;
+			productName = numberspace;
+			productReference = FD9BE2671D854C88006CF4F3 /* numberspace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD9BE27D1D854C88006CF4F3 /* numberspaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD9BE2951D854C88006CF4F3 /* Build configuration list for PBXNativeTarget "numberspaceTests" */;
+			buildPhases = (
+				D1F78DF8B71110E7ECEAD84E /* [CP] Check Pods Manifest.lock */,
+				FD9BE27A1D854C88006CF4F3 /* Sources */,
+				FD9BE27B1D854C88006CF4F3 /* Frameworks */,
+				FD9BE27C1D854C88006CF4F3 /* Resources */,
+				BECF62BF72F3BE75E0F32E12 /* [CP] Embed Pods Frameworks */,
+				6BF6BE3786C5681EBDBAEC63 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD9BE2801D854C88006CF4F3 /* PBXTargetDependency */,
+			);
+			name = numberspaceTests;
+			productName = numberspaceTests;
+			productReference = FD9BE27E1D854C88006CF4F3 /* numberspaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD9BE2881D854C88006CF4F3 /* numberspaceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD9BE2981D854C88006CF4F3 /* Build configuration list for PBXNativeTarget "numberspaceUITests" */;
+			buildPhases = (
+				61CD8DADF0D4DD2E175B665E /* [CP] Check Pods Manifest.lock */,
+				FD9BE2851D854C88006CF4F3 /* Sources */,
+				FD9BE2861D854C88006CF4F3 /* Frameworks */,
+				FD9BE2871D854C88006CF4F3 /* Resources */,
+				CFABF3E1385A123DFC44E6F3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD9BE28B1D854C88006CF4F3 /* PBXTargetDependency */,
+			);
+			name = numberspaceUITests;
+			productName = numberspaceUITests;
+			productReference = FD9BE2891D854C88006CF4F3 /* numberspaceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD9BE25F1D854C88006CF4F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Forethink;
+				TargetAttributes = {
+					FD9BE2661D854C88006CF4F3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FD9BE27D1D854C88006CF4F3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FD9BE2661D854C88006CF4F3;
+					};
+					FD9BE2881D854C88006CF4F3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FD9BE2661D854C88006CF4F3;
+					};
+				};
+			};
+			buildConfigurationList = FD9BE2621D854C88006CF4F3 /* Build configuration list for PBXProject "numberspace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD9BE25E1D854C88006CF4F3;
+			productRefGroup = FD9BE2681D854C88006CF4F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD9BE2661D854C88006CF4F3 /* numberspace */,
+				FD9BE27D1D854C88006CF4F3 /* numberspaceTests */,
+				FD9BE2881D854C88006CF4F3 /* numberspaceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD9BE2651D854C88006CF4F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9BE2781D854C88006CF4F3 /* LaunchScreen.storyboard in Resources */,
+				FDBC21181D85DFEE00C2EB44 /* numberspace10percent.json in Resources */,
+				FD9BE2751D854C88006CF4F3 /* Assets.xcassets in Resources */,
+				FDBC21161D85D80700C2EB44 /* numberspace70percent.json in Resources */,
+				FDBC21141D85D52400C2EB44 /* numberspace30percent.json in Resources */,
+				FD9BE2701D854C88006CF4F3 /* Main.storyboard in Resources */,
+				FDF2050A1D858765008BE9E6 /* numberspace44.12percent.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9BE27C1D854C88006CF4F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9BE2871D854C88006CF4F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16356E88B434666337748902 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-numberspace/Pods-numberspace-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51E3947BD95B84B956996431 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		60F56D7848D6C6EEDEA66B04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-numberspace/Pods-numberspace-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61CD8DADF0D4DD2E175B665E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6BF6BE3786C5681EBDBAEC63 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-numberspaceTests/Pods-numberspaceTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BECF62BF72F3BE75E0F32E12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-numberspaceTests/Pods-numberspaceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFABF3E1385A123DFC44E6F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-numberspaceUITests/Pods-numberspaceUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1F78DF8B71110E7ECEAD84E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD9BE2631D854C88006CF4F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9BE2731D854C88006CF4F3 /* numberspace.xcdatamodeld in Sources */,
+				FDBC21201D86071100C2EB44 /* NumberSpaceAlignedOne.swift in Sources */,
+				FDBC211A1D85E7CE00C2EB44 /* Numberspace2.swift in Sources */,
+				FD9BE29C1D857031006CF4F3 /* NumberSpace.swift in Sources */,
+				FDBC211C1D85E81500C2EB44 /* Numberspace3.swift in Sources */,
+				FDBC211E1D85E85400C2EB44 /* Numberspace4.swift in Sources */,
+				FD9BE26D1D854C88006CF4F3 /* ViewController.swift in Sources */,
+				FD9BE26B1D854C88006CF4F3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9BE27A1D854C88006CF4F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9BE2831D854C88006CF4F3 /* numberspaceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9BE2851D854C88006CF4F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9BE28E1D854C88006CF4F3 /* numberspaceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD9BE2801D854C88006CF4F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD9BE2661D854C88006CF4F3 /* numberspace */;
+			targetProxy = FD9BE27F1D854C88006CF4F3 /* PBXContainerItemProxy */;
+		};
+		FD9BE28B1D854C88006CF4F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD9BE2661D854C88006CF4F3 /* numberspace */;
+			targetProxy = FD9BE28A1D854C88006CF4F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD9BE26E1D854C88006CF4F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD9BE26F1D854C88006CF4F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD9BE2761D854C88006CF4F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD9BE2771D854C88006CF4F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD9BE2901D854C88006CF4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD9BE2911D854C88006CF4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD9BE2931D854C88006CF4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18930346F0ACE1804D154954 /* Pods-numberspace.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = numberspace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.forethink.nu.numberspace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD9BE2941D854C88006CF4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DECC6646A9F941FC42B0DA9C /* Pods-numberspace.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = numberspace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.forethink.nu.numberspace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD9BE2961D854C88006CF4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3B36317141C1839F563ABEB /* Pods-numberspaceTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = numberspaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.forethink.nu.numberspaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/numberspace.app/numberspace";
+			};
+			name = Debug;
+		};
+		FD9BE2971D854C88006CF4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F4E8C93D4F9D714F9FF4550 /* Pods-numberspaceTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = numberspaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.forethink.nu.numberspaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/numberspace.app/numberspace";
+			};
+			name = Release;
+		};
+		FD9BE2991D854C88006CF4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37D72E894CD6AF85A61BB7A1 /* Pods-numberspaceUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = numberspaceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.forethink.nu.numberspaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = numberspace;
+			};
+			name = Debug;
+		};
+		FD9BE29A1D854C88006CF4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EACC5EFC73167C9851346464 /* Pods-numberspaceUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = numberspaceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.forethink.nu.numberspaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = numberspace;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD9BE2621D854C88006CF4F3 /* Build configuration list for PBXProject "numberspace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD9BE2901D854C88006CF4F3 /* Debug */,
+				FD9BE2911D854C88006CF4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD9BE2921D854C88006CF4F3 /* Build configuration list for PBXNativeTarget "numberspace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD9BE2931D854C88006CF4F3 /* Debug */,
+				FD9BE2941D854C88006CF4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD9BE2951D854C88006CF4F3 /* Build configuration list for PBXNativeTarget "numberspaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD9BE2961D854C88006CF4F3 /* Debug */,
+				FD9BE2971D854C88006CF4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD9BE2981D854C88006CF4F3 /* Build configuration list for PBXNativeTarget "numberspaceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD9BE2991D854C88006CF4F3 /* Debug */,
+				FD9BE29A1D854C88006CF4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FD9BE2711D854C88006CF4F3 /* numberspace.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD9BE2721D854C88006CF4F3 /* numberspace.xcdatamodel */,
+			);
+			currentVersion = FD9BE2721D854C88006CF4F3 /* numberspace.xcdatamodel */;
+			path = numberspace.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FD9BE25F1D854C88006CF4F3 /* Project object */;
+}
